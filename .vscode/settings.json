@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": ".venv/bin/python3.7",
+    "files.associations": {
+        "Pipfile": "properties"
+    },
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "editor.rulers": [
+        100,
+        140
+    ]
+  }
+}
