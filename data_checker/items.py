@@ -8,7 +8,9 @@
 import scrapy
 
 
-class DataCheckerItem(scrapy.Item):
+class Dataset(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    link = scrapy.Field()
+    organization = scrapy.Field()
